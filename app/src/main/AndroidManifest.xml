@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Barang_terima"
+            android:label="@string/title_activity_barang_terima"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Barang_distribusi"
+            android:label="@string/title_activity_barang_distribusi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cetak_laporan"
+            android:label="@string/title_activity_cetak_laporan"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

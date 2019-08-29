@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Xnote</string>
+    <string name="title_activity_barang_terima">Barang_terima</string>
+    <string name="title_activity_barang_distribusi">Barang_distribusi</string>
+    <string name="title_activity_cetak_laporan">Cetak_laporan</string>
 </resources>

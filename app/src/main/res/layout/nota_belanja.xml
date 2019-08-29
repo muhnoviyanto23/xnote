@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- NOTA BELANJA -"
+            android:layout_marginTop="13dp"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:layout_below="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="549dp"></ListView>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_size_mini"
+            app:menu_labels_textColor="#000000"
+            app:menu_labels_colorNormal="#FFFFFF"
+            app:menu_labels_colorPressed="#BDBDBD"
+            app:fab_size="normal"
+            app:menu_backgroundColor="@android:color/transparent"
+            app:menu_colorNormal="@color/colorAccent"
+            app:menu_colorPressed="#FF00786D"
+            app:menu_icon="@drawable/fab_add"
+            app:menu_labels_showShadow="true"
+            app:menu_openDirection="up"
+            app:menu_showShadow="true">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_label="Lokasi"
+                android:src="@drawable/fab_add"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_colorPressed="#FF00786D"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_label="Tambah Teman"
+                android:src="@drawable/fab_add"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_colorPressed="#FF00786D"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_label="Setelan"
+                android:src="@drawable/fab_add"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_colorPressed="#FF00786D"
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
