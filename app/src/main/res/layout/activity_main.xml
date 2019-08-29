@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- MENU APLIKASI -"
+            android:layout_marginTop="13dp"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="63dp"
+            android:background="@color/colorPrimary"
+            android:text="NOTA BELANJA"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/menu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="126dp"
+            android:background="@color/colorPrimary"
+            android:text="BARANG DITERIMA DC"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/menu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="189dp"
+            android:background="@color/colorPrimary"
+            android:text="BARANG SELESAI DISTRIBUSI"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/menu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="252dp"
+            android:background="@color/colorPrimary"
+            android:text="CETAK LAPORAN"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/menu5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="315dp"
+            android:background="@color/colorPrimary"
+            android:text="Keluar"
+            android:textColor="#FFFF" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
